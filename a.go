@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "github.com/YoungLiu/GolangPlan/modules"
 
 var WhatIsThe1 = AnswerToLife(2.1) //2.1
 var WhatIsThe2 = AnswerToLife(2.2) //2.2
@@ -12,4 +13,5 @@ func init() { //3.1
 
 func init() { //3.2
 	fmt.Printf("init WhatIsThe in a.go`s init 3.2: %d\n", 3)
+	modules.Donothing()
 }
